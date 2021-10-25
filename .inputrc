@@ -1,0 +1,5 @@
+$include /etc/inputrc
+set enable-keypad on
+set editing-mode vi
+set keymap vi
+set convert-meta on
