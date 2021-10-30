@@ -2,7 +2,8 @@
 
 function update_dotfiles {
   pushd ~/dotfiles
-  git pull --recurse-submodules
+  git pull
+  git submodule update --merge
   popd
   redotfiles
   reprofile
