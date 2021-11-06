@@ -9,7 +9,7 @@
 	eol = lf
 	pager = less -x4
 [alias]
-	aliases = !git config -l | grep alias | cut -c 7- | awk -F= '{print \"\\033[31m\" $1 \"\\033[0m\t\" $2}' | expand -t 10
+	aliases = "!git config -l | grep alias | cut -c 7- | awk -F= '{printf \"\\033[31m\" $1 \"\\033[0m\t\"; $1=\"\"; print $0}' | expand -t 10"
 	aa = add --all
 	au = add -u
 	co = checkout
