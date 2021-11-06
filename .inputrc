@@ -3,3 +3,9 @@ set enable-keypad on
 set editing-mode vi
 set keymap vi
 set convert-meta on
+# https://www.reddit.com/r/commandline/comments/kbeoe/you_can_make_readline_and_bash_much_more_user/
+set completion-ignore-case on
+set show-all-if-unmodified on
+set show-all-if-ambiguous on
+set completion-map-case on
+
