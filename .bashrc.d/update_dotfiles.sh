@@ -1,4 +1,4 @@
-#!/bin/bash
+#zsh-compatible
 
 function update_dotfiles {
   pushd ~/dotfiles
