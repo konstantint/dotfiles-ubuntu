@@ -6,3 +6,5 @@
 [ -e /usr/bin/prettyping ] && alias ping=prettyping
 
 alias lls="ls -lh | lolcat"                                                    
+alias lgit="lazygit"
+
