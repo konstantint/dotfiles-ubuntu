@@ -1,4 +1,4 @@
-set ts=4 expandtab
+set ts=4 expandtab shiftwidth=4
 syntax on
 filetype plugin indent on
 set showcmd		" Show (partial) command in status line.
