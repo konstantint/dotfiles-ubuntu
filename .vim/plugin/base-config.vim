@@ -8,6 +8,7 @@ set smartcase		" Do smart case matching
 set incsearch		" Incremental search
 set autowrite		" Automatically save before commands like :next and :make
 set hidden		" Hide buffers when they are abandoned
+set encoding=utf-8      " UTF8 encoding (default is latin-1 in fact)
 
 " Remember last position
 if has("autocmd")

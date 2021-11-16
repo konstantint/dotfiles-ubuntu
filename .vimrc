@@ -1,6 +1,3 @@
-" Initialize vim-pathogen.
-" See ~/.vim/plugin/* for other configuration settings
-
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
+" See ~/.vim/plugin/*.vim for initialization code.
+" See ~/.vim/pack/* for plugins and colors (:help packages)
 
