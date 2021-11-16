@@ -1,0 +1,21 @@
+[submodule ".vim/pack/plugins/start/vim-airline"]
+	path = .vim/pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule ".vim/pack/plugins/start/vim-sneak"]
+	path = .vim/pack/plugins/start/vim-sneak
+	url = https://github.com/justinmk/vim-sneak
+[submodule ".vim/pack/plugins/start/vim-easymotion"]
+	path = .vim/pack/plugins/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
+[submodule ".vim/pack/plugins/start/vim-devicons"]
+	path = .vim/pack/plugins/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule ".vim/pack/colors/start/vim-sublime-monokai"]
+	path = .vim/pack/colors/start/vim-sublime-monokai
+	url = https://github.com/ErichDonGubler/vim-sublime-monokai.git
+[submodule ".vim/pack/plugins/start/ctrlp.vim"]
+	path = .vim/pack/plugins/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule ".vim/pack/plugins/start/vim-slime"]
+	path = .vim/pack/plugins/start/vim-slime
+	url = https://github.com/jpalardy/vim-slime.git
