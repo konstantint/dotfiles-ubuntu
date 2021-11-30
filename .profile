@@ -16,3 +16,6 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
+if [ -f "$HOME/.welcome" ]; then
+    . "$HOME/.welcome"
+fi
