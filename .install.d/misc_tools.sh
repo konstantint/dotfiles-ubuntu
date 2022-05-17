@@ -1,4 +1,4 @@
-for tool in htop ranger ncdu cowsay lolcat prettyping; do
+for tool in htop ranger ncdu cowsay lolcat prettyping sl; do
     which $tool || sudo apt install -y $tool;
 done
 # https://askubuntu.com/a/1300824
