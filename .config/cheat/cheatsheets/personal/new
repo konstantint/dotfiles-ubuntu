@@ -1,0 +1,6 @@
+---
+tags: [ cheat ]
+---
+To add a new cheat, create a file under ~/.config/cheat/personal
+Do not forget to commit it to the correct dotfiles repository.
+

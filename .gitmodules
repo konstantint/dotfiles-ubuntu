@@ -19,3 +19,6 @@
 [submodule ".vim/pack/plugins/start/vim-slime"]
 	path = .vim/pack/plugins/start/vim-slime
 	url = https://github.com/jpalardy/vim-slime.git
+[submodule ".config/cheat/cheatsheets/community"]
+	path = .config/cheat/cheatsheets/community
+	url = https://github.com/cheat/cheatsheets
