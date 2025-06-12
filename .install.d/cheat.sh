@@ -1,14 +1,17 @@
-#zsh-compatible
-
 # https://github.com/cheat/cheat
 # Look up latest version at https://github.com/cheat/cheat/releases
 
 which cheat || {
-    wget https://github.com/cheat/cheat/releases/latest/download/cheat-linux-amd64.gz -O /tmp/cheat-linux-amd64.gz \
-    && gunzip /tmp/cheat-linux-amd64.gz \
-    && chmod +x /tmp/cheat-linux-amd64 \
+    if [ "$(uname -m)" = "aarch64" ]; then
+        ARCH="arm64"
+    else
+        ARCH="amd64"
+    fi
+    wget "https://github.com/cheat/cheat/releases/latest/download/cheat-linux-$ARCH.gz" -O /tmp/cheat.gz \
+    && gunzip /tmp/cheat.gz \
+    && chmod +x /tmp/cheat \
     && mkdir -p ~/.local/bin \
-    && mv /tmp/cheat-linux-amd64 ~/.local/bin/cheat \
-    && rm -f /tmp/cheat-linux-amd64.gz
+    && mv /tmp/cheat ~/.local/bin/cheat \
+    && rm -f /tmp/cheat.gz
 }
 
