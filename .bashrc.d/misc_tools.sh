@@ -8,3 +8,6 @@
 alias lls="ls -lh | lolcat"                                                    
 alias lgit="lazygit"
 alias sl="sl -ale"
+
+alias kssh="kitty +kitten ssh"
+
